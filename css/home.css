@@ -135,12 +135,7 @@ li:hover {
 } */
 
 .conteudo-nome {
-    /* position: relative; */
-    /* top: 5rem;
-    left: 18rem; */
-
-    padding-top: 170px;
-
+     padding-top: 170px;
     font-family: var(--letra--de--mao2);
     font-size: 4rem;
 }
@@ -149,9 +144,7 @@ li:hover {
     height: 300px;
     border: solid;
     border-radius: 100%;
-    
-    /* margin: 5rem 1rem 1rem 20rem; */
-}
+    }
 .imagem:hover {
     transition-duration: 1s;
     transform: scale(1.1);
@@ -161,7 +154,6 @@ li:hover {
     align-self: center;
     height: 500px;
     padding: 120px 0 0 0;
-    /* display: flex; */
     width: 60%;
 
 }
@@ -180,14 +172,11 @@ li:hover {
 .conteudo-titulo:hover {
     color: #006d77;
     transition-duration: 1s;
-    /* transform: scale(1.1); */
-    /* display:inline; */
     margin-left: 20px;
 
 }
 
 .conteudo-paragrafo {
-    /* margin: 1rem 15rem 0 2rem; */
     font-size: 1.5rem;
     display: flex;
 }
