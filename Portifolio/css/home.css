@@ -27,9 +27,9 @@ header {
     color: #fffcf9;
     letter-spacing: 0.9rem;
 }
-.menu-logo{
+/* .menu-logo{
 
-}
+} */
 .logo-eu{
     height: 118px;
     border: solid;
@@ -129,18 +129,13 @@ li:hover {
     text-align: center;
     margin:40px 0 30px 0;
 }
-.conteudo-imagem:hover{
+/* .conteudo-imagem:hover{
  
    
-}
+} */
 
 .conteudo-nome {
-    /* position: relative; */
-    /* top: 5rem;
-    left: 18rem; */
-
-    padding-top: 170px;
-
+     padding-top: 170px;
     font-family: var(--letra--de--mao2);
     font-size: 4rem;
 }
@@ -149,9 +144,7 @@ li:hover {
     height: 300px;
     border: solid;
     border-radius: 100%;
-    
-    /* margin: 5rem 1rem 1rem 20rem; */
-}
+    }
 .imagem:hover {
     transition-duration: 1s;
     transform: scale(1.1);
@@ -161,7 +154,6 @@ li:hover {
     align-self: center;
     height: 500px;
     padding: 120px 0 0 0;
-    /* display: flex; */
     width: 60%;
 
 }
@@ -173,19 +165,18 @@ li:hover {
     font-weight: bold;
     display: flex;
     height: 50px;
+    transition-duration: 1s;
+
 }
 
 .conteudo-titulo:hover {
     color: #006d77;
     transition-duration: 1s;
-    transform: scale(1.1);
-    /* display:inline; */
-    margin-left: 30px;
+    margin-left: 20px;
 
 }
 
 .conteudo-paragrafo {
-    /* margin: 1rem 15rem 0 2rem; */
     font-size: 1.5rem;
     display: flex;
 }
@@ -197,4 +188,24 @@ footer{
     position: fixed;
     left: 0%;
 bottom: 0;
+
+font-size: 1.7rem;
+color: #fffcf9;
+}
+a{
+    text-decoration: none;
+    color: #fffcf9;
+}
+.rodape-logo{
+
+    height: 80px;
+    align-self: center;
+    margin-right: 15px;
+}
+.tel{
+    align-self: center;
+margin-right: 500px;
+}
+.email{
+    align-self: center;
 }
