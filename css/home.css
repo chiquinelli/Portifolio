@@ -133,19 +133,12 @@ li:hover {
 }
 
 .conteudo-imagem {
-    /* position: relative; */
-    /* height: 480px; */
+  
 
-    width: 38%;
-    /* padding: 50px 0 30px 70px; */
+    width: 28%;
     text-align: center;
     margin: 40px 0 30px 0;
 }
-
-/* .conteudo-imagem:hover{
- 
-   
-} */
 
 .conteudo-nome {
     padding-top: 170px;
@@ -230,12 +223,86 @@ a {
     align-self: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 1031px) and (max-width: 1766px) {
+    .texto-nome {
+        font-size: 2.2rem;
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+        width: 24%;
+        font-family: var(--letra--texto);
+        color: #fffcf9;
+        letter-spacing: 0px;
+    }
+
+    .logo-eu {
+        height: 85px;
+        border: solid;
+        border-radius: 100%;
+        position: fixed;
+        left: 35%;
+        top: 28px;
+    }
+
+    .logo-esporte {
+        height: 85px;
+        border: solid;
+        border-radius: 118%;
+        position: fixed;
+        left: 44%;
+        top: 28px;
+    }
+
+    .logo-job {
+        height: 85px;
+        border: solid;
+        border-radius: 100%;
+        position: fixed;
+        left: 53%;
+        top: 28px;
+        image-rendering: -webkit-optimize-contrast;
+    }
+
+    ul {
+        /* margin: 0rem 5rem 1rem 0.5rem; */
+        width: 60%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 0 0 0 8%;
+    }
+
+    li {
+        padding: 0rem 0.5rem 0rem 1rem;
+        width: 16%;
+        content-visibility: auto;
+    }
+
+    .texto-link {
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: #fffcf9;
+        letter-spacing: 3px;
+    }
+
+    .conteudo-imagem {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        /* align-content: space-around; */
+        align-items: center;
+        width: 38%;
+
+    }
+}
+
+
+@media screen and (max-width: 560px) {
     .texto-nome {
         font-size: 1.2rem;
         display: flex;
         align-items: center;
-        margin-left: 0;
+        margin-left: 15px;
         width: 40%;
         font-family: var(--letra--texto);
         color: #fffcf9;
@@ -246,7 +313,7 @@ a {
         font-size: 1.2rem;
         letter-spacing: normal;
         position: absolute;
-      
+
     }
 
     .logo-eu {
@@ -276,10 +343,12 @@ a {
         top: 83px;
         image-rendering: -webkit-optimize-contrast;
     }
-ul{
-    display: none;
 
-}
+    ul {
+        display: none;
+
+    }
+
     .texto-link {
         display: none;
     }
@@ -289,7 +358,7 @@ ul{
     }
 
     .conteudo-imagem {
-       
+
         width: 38%;
         text-align: center;
         margin: 32px 5px 30px 0;
@@ -321,6 +390,7 @@ ul{
         font-size: 0.9rem;
 
     }
+
     footer {
         display: inline-flex;
         width: 100%;
@@ -338,27 +408,173 @@ ul{
     .rodape-logo {
         height: 35px;
         align-self: center;
-     
+
     }
 
     .tel {
-       
+
         font-size: 0.7rem;
         display: table-cell;
-      
-    }
-    
 
-a {
-    align-self: center;
-    text-decoration: none;
-    color: #fffcf9;
-    margin-right: 10px;
+    }
+
+
+    a {
+        align-self: center;
+        text-decoration: none;
+        color: #fffcf9;
+        margin-right: 10px;
+    }
+
+    .email {
+        align-self: center;
+        font-size: 0.7rem;
+    }
+
+
 }
-.email {
-    align-self: center;
-    font-size: 0.7rem;
-}
+
+
+@media screen and (min-width: 561px)  and (max-width: 1030px) {
+    .texto-nome {
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        width: 40%;
+        font-family: var(--letra--texto);
+        color: #fffcf9;
+        letter-spacing: -0.1rem;
+    }
+
+    .texto-canto {
+        font-size: 1.2rem;
+        letter-spacing: normal;
+        position: absolute;
+
+    }
+
+    .logo-eu {
+        height: 90px;
+        border: solid;
+        border-radius: 100%;
+        position: fixed;
+        left: 44%;
+        top: 4%;
+    }
+
+    .logo-esporte {
+        height: 90px;
+        border: solid;
+        border-radius: 100%;
+        position: fixed;
+        left: 63%;
+        top: 4%;
+    }
+
+    .logo-job {
+        height: 91px;
+        border: solid;
+        border-radius: 100%;
+        position: fixed;
+        left: 83%;
+        top: 4%;
+        image-rendering: -webkit-optimize-contrast;
+    }
+
+    ul {
+        display: none;
+
+    }
+
+    .texto-link {
+        display: none;
+    }
+
+    .conteudo-nome {
+        font-size: 2rem;
+    }
+    .conteudo {
+        /* top: 150px; */
+        /* height: 100vh; */
+        width: 100%;
+        display: flex;
+        padding-top: 150px
+    }
+
+    .conteudo-imagem {
+
+        width: 33%;
+        text-align: center;
+        margin: 32px 5px 30px 0;
+    }
+
+    .imagem {
+        height: 120px;
+        border: solid;
+        border-radius: 100%;
+    }
+
+    .conteudo-texto {
+        align-self: center;
+        height: 500px;
+        padding: 30px 0 0 0;
+        width: 60%;
+    }
+
+    .conteudo-titulo {
+        font-size: 1.4rem;
+        font-family: var(--letra--texto);
+        font-weight: bold;
+        display: flex;
+        height: 50px;
+        transition-duration: 1s;
+    }
+
+    .conteudo-paragrafo {
+        font-size: 0.9rem;
+
+    }
+
+    footer {
+        display: inline-flex;
+        width: 100%;
+        background-color: #006d77;
+        height: 100px;
+        /* display: flex; */
+        position: fixed;
+        -webkit-box-align: center;
+        display: -webkit-inline-box;
+        left: 0%;
+        bottom: 0;
+        color: #fffcf9;
+    }
+
+    .rodape-logo {
+        height: 35px;
+        align-self: center;
+
+    }
+
+    .tel {
+
+        font-size: 0.7rem;
+        display: table-cell;
+
+    }
+
+
+    a {
+        align-self: center;
+        text-decoration: none;
+        color: #fffcf9;
+        margin-right: 10px;
+    }
+
+    .email {
+        align-self: center;
+        font-size: 0.7rem;
+    }
 
 
 }
