@@ -1,5 +1,5 @@
     function mudarTexto(param) {
-        console.log(param);
+        // console.log(param);
         titulo = document.querySelector(".conteudo-titulo");
         texto = document.querySelector(".conteudo-paragrafo");
         imagem = document.querySelector(".imagem");
